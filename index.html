@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>webpage-inspired by rasel</title>
+  </head>
+  <body onload="loadFuntion()">
+    <div class="wrapper">
+      <div class="app">
+        <div class="sideBar">
+          <div class="closeBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="svg-icon feather feather-repeat wrapper-menu animated rotation open"
+            >
+              <polyline points="17 1 21 5 17 9"></polyline>
+              <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+              <polyline points="7 23 3 19 7 15"></polyline>
+              <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+            </svg>
+          </div>
+          <a href="" class="sidebarShopName">
+            <img src="shop.svg" alt="svg could not found" />
+            <h5 class="head">Mayer Dua Enterprise</h5>
+          </a>
+
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#" class="menuItem">
+                  <div class="submenu">
+                    <i class="fa fa-book"></i>
+                    <h5 class="head">Tally</h5>
+                  </div>
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mainContent">
+          <div class="navbar">
+            <div class="logo">
+              <img
+                class="logoImg"
+                src="business_manager_banner.png"
+                alt="buisnessBanner"
+              />
+            </div>
+            <div class="hamburger">
+              <i class="fa fa-bars"></i>
+            </div>
+            <ul class="navItem">
+              <li>
+                <a class="navLink navLink1" href="#"
+                  ><i class="fa fa-bell"></i>
+                  <div class="dot"></div
+                ></a>
+              </li>
+              <li>
+                <a class="navLink navLink2" href="#"
+                  ><i class="fa fa-cog"></i
+                ></a>
+              </li>
+              <li>
+                <a class="navLink navLink3" href="#"
+                  ><i class="fa fa-power-off"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="card">
+              <div class="cardBody">
+                <h5>Today's Sale</h5>
+                <p>৳ 0</p>
+              </div>
+            </div>
+            <!-- 2nd -->
+            <div class="card2 card">
+              <div class="cardBody">
+                <h5>Today's Expenses</h5>
+                <p>৳ 0</p>
+              </div>
+            </div>
+            <!-- 3rd -->
+            <div class="card3 card">
+              <div class="cardBody">
+                <h5>Today's Due</h5>
+                <p>৳ 0</p>
+              </div>
+            </div>
+            <!-- 4th -->
+            <div class="card4 card">
+              <div class="cardBody">
+                <h5>Today's Balance</h5>
+                <p>৳ 0</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <div class="left">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms of use</a>
+            </div>
+            <div class="right">
+              <p>Copyright 2022 Ariyan Rumi All Right Reserved:)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loading">
+      <img src="loading.gif" alt="" />
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
